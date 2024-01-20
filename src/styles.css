@@ -10,24 +10,22 @@
     margin: 10px;
 }
 
-/* Style for navigation links */
-.navbar a {
+/* Style for navigation links on the right side */
+.nav-right a {
     margin-left: 10px;
     text-decoration: none;
     color: #333;
 }
 
 /* Custom styling for Google links */
-.google-link {
+.nav-right .google-link {
     text-decoration: none; 
     color: #1a0dab; 
-
 }
 
-.google-link:hover {
+.nav-right .google-link:hover {
     text-decoration: underline;
 }
-
 
 /* Google Services button */
 .google-services-button {

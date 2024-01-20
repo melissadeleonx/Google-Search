@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+
+# npm
+npm-debug.log
+*.log
+
+# Dependency directories
+lib/
+vendor/
+
+# dotenv environment variables file
+.env
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

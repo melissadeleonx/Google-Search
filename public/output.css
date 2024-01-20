@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -725,6 +729,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -744,7 +752,73 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* My custom styles */
+/* Navigation Bar */
+
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+/* Style for navigation links */
+
+.navbar a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Custom styling for Google links */
+
+.google-link {
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.google-link:hover {
+  text-decoration: underline;
+}
+
+/* Google Services button */
+
+.google-services-button {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.google-services-button:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+}
+
+/* Google Services icon SVG */
+
+.google-services-icon {
+  width: 24px;
+  height: 24px;
+  fill: #5f6368;
+}
+
+/* Content Container (Google Logo, Search Bar, Navigation Bar) */
+
+.content-container {
+  margin-top: 50px;
+}
+
+/* Google logo */
+
+.google-logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
 .hover\:bg-blue-600:hover {
   --tw-bg-opacity: 1;
@@ -755,3 +829,5 @@ video {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
+

@@ -564,10 +564,6 @@ video {
   top: 0px;
 }
 
-.order-1 {
-  order: 1;
-}
-
 .m-3 {
   margin: 0.75rem;
 }
@@ -612,6 +608,10 @@ video {
 
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
 .mr-4 {
@@ -694,10 +694,6 @@ video {
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {

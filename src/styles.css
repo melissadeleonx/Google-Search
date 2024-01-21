@@ -43,4 +43,24 @@
 }
 
 
+.custom-search-bar {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px; 
+    max-width: 584px; 
+}
+
+.search-icon-svg {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+
 

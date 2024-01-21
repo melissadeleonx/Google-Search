@@ -5,6 +5,15 @@
 
 /* My Custom CSS -> from styles.css to output.css */
 
+
+@media screen and (max-width: 768px) {
+    .custom-search-bar {
+        max-width: 584px; 
+    }
+
+
+  }
+
 /* Custom Ulitilies*/
 
 .custom-font-arial {
@@ -42,7 +51,7 @@
     fill: #5f6368; 
 }
 
-
+/* Google Search bar */
 .custom-search-bar {
     display: flex;
     z-index: 3;
@@ -57,6 +66,13 @@
     max-width: 584px; 
 }
 
+.custom-search-bar:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+/* SVG Icons */
 .search-icon-svg {
     height: 20px;
     line-height: 20px;
@@ -64,14 +80,53 @@
     vertical-align: middle;
 
 }
+
+.invisible {
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
+
 .mic-icon-svg {
     height: 24px;
     width: 24px;
     vertical-align: middle;
 }
 
+.mic-icon-svg:hover {
+    content: attr(aria-label);
+}
+
+
 .image-icon-svg {
     height: 24px;
     width: 24px;
     vertical-align: middle;
+}
+
+/* Sumbit Buttons */
+
+.google-search-btn,
+.feeling-lucky-btn {
+    background-color: #f8f9fa;
+    border: 1px #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.google-search-btn:hover,
+.feeling-lucky-btn:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0
 }

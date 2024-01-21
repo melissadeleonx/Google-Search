@@ -732,6 +732,11 @@ video {
   letter-spacing: -0.025em;
 }
 
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -819,6 +824,19 @@ video {
   height: 20px;
   line-height: 20px;
   width: 20px;
+  vertical-align: middle;
+}
+
+.mic-icon-svg {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.image-icon-svg {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
 }
 
 .hover\:bg-blue-600:hover {
@@ -844,5 +862,3 @@ video {
     display: flex;
   }
 }
-
-

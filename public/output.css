@@ -552,17 +552,49 @@ video {
   position: relative;
 }
 
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.m-3 {
+  margin: 0.75rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
 .ml-2 {
   margin-left: 0.5rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .mt-2 {
@@ -585,6 +617,18 @@ video {
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-auto {
+  height: auto;
+}
+
 .min-h-12 {
   min-height: 3rem;
 }
@@ -593,8 +637,8 @@ video {
   width: 100%;
 }
 
-.min-w-\[96px\] {
-  min-width: 96px;
+.min-w-\[86px\] {
+  min-width: 86px;
 }
 
 .max-w-2xl {
@@ -603,6 +647,10 @@ video {
 
 .max-w-4xl {
   max-width: 56rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .resize-none {
@@ -619,10 +667,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .overflow-hidden {
@@ -665,24 +709,18 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.py-1\.5 {
-  padding-top: 0.375rem;
-  padding-bottom: 0.375rem;
 }
 
 .py-2 {
@@ -733,9 +771,21 @@ video {
   text-decoration-line: underline;
 }
 
+.no-underline {
+  text-decoration-line: none;
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .transition-all {
@@ -752,45 +802,32 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Navigation Bar */
+/* My Custom CSS -> from styles.css to output.css */
 
-.navbar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin: 10px;
+/* Custom Ulitilies*/
+
+.custom-font-arial {
+  font-family: 'Arial', sans-serif;
 }
 
 /* Style for navigation links */
 
-.navbar a {
-  margin-left: 10px;
-  text-decoration: none;
-  color: #333;
+.google-link-left {
+  font-size: 14px;
+  color: #202124;
 }
-
-/* Custom styling for Google links */
 
 .google-link {
-  text-decoration: none;
-  color: #1a0dab;
-}
-
-.google-link:hover {
-  text-decoration: underline;
+  color: rgba(0,0,0,.87);
+  font-size: 13px;
 }
 
 /* Google Services button */
 
 .google-services-button {
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  margin-left: 8px;
 }
 
 .google-services-button:hover {
@@ -805,29 +842,29 @@ video {
   fill: #5f6368;
 }
 
-/* Content Container (Google Logo, Search Bar, Navigation Bar) */
-
-.content-container {
-  margin-top: 50px;
-}
-
-/* Google logo */
-
-.google-logo {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
 .hover\:bg-blue-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
+@media (min-width: 640px) {
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .sm\:flex {
+    display: flex;
+  }
+}
+
 
 

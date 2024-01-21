@@ -2,43 +2,33 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Navigation Bar */
-.navbar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin: 10px;
-}
+
+/* My Custom CSS -> from styles.css to output.css */
+
+/* Custom Ulitilies*/
+
+.custom-font-arial {
+    font-family: 'Arial', sans-serif;
+  }
+
 
 /* Style for navigation links */
-.navbar a {
-    margin-left: 10px;
-    text-decoration: none;
-    color: #333;
+
+.google-link-left {
+    font-size: 14px;
+    color: #202124;
 }
 
-/* Custom styling for Google links */
 .google-link {
-    text-decoration: none; 
-    color: #1a0dab; 
-
+    color: rgba(0,0,0,.87);
+    font-size: 13px;
 }
-
-.google-link:hover {
-    text-decoration: underline;
-}
-
 
 /* Google Services button */
 .google-services-button {
-    text-decoration: none;
-    display: inline-flex; 
-    align-items: center; 
-    justify-content: center; 
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    margin-left: 8px;
 }
 
 .google-services-button:hover {
@@ -52,17 +42,5 @@
     fill: #5f6368; 
 }
 
-/* Content Container (Google Logo, Search Bar, Navigation Bar) */
-.content-container {
-    margin-top: 50px; 
-}
-
-/* Google logo */
-.google-logo {
-    max-width: 100%; 
-    height: auto;  
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
 
 

@@ -7,12 +7,22 @@
 
 
 @media screen and (max-width: 768px) {
-    .custom-search-bar {
-        max-width: 584px; 
+    .google-logo {        
+        text-align: center;
+        margin: 36px auto 18px;
+        width: 160px;
+        height: 56px;
+        line-height: 0;
+        aspect-ratio: auto 160 / 56;
+        border: none;
     }
+    /* .custom-search-bar {
+   
+    
+} */
 
+}
 
-  }
 
 /* Custom Ulitilies*/
 

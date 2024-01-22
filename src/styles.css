@@ -7,6 +7,7 @@
 
 
 @media screen and (max-width: 768px) {
+    /* Smaller Google logo */
     .google-logo {        
         text-align: center;
         margin: 36px auto 18px;

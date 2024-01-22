@@ -14,8 +14,8 @@
         <!-- Navigation Bar -->
         <div class="navbar flex items-center absolute top-0 right-0 m-3">
             <div class="navbar-right">     
-                <a class="google-link inline-block leading-27 align-middle ml-3 no-underline font-sans transition duration-300 ease-in-out hover:underline" href="index.html" target="_top">Google Search</a>
-                <a class="google-link inline-block leading-27 align-middle ml-3 no-underline font-sans transition duration-300 ease-in-out hover:underline" href="src/advanced-search.html" target="_top">Advanced Search</a>
+                <a class="google-link inline-block leading-27 align-middle ml-3 no-underline font-sans transition duration-300 ease-in-out hover:underline" href="../index.html" target="_top">Google Search</a>
+                <a class="google-link inline-block leading-27 align-middle ml-3 no-underline font-sans transition duration-300 ease-in-out hover:underline" href="advanced-search.html" target="_top">Advanced Search</a>
             </div>
 
             <!-- Google Services Button -->
@@ -38,9 +38,17 @@
     <!-- Content Container (Google Logo, Search Bar) -->
     <div class="content-container text-center flex flex-col items-center justify-center w-full mt-2 sm:mt-10">
 
-        <!-- Google Logo -->
-        <img src="..\images\Google_2015_logo.svg.png" alt="Google Logo" class="google-logo max-w-full h-auto mb-5 sm:min-h-150 sm:max-h-290" width="272" height="92">
-    
+        <!-- Google Logo Container -->
+        <div class="google-logo-container relative text-center">
+            <!-- Google Logo -->
+            <img src="..\images\Google_2015_logo.svg.png" alt="Google Logo" class="google-logo max-w-full h-auto mb-5 sm:min-h-150 sm:max-h-290" width="272" height="92">
+
+            <!-- Text below the Google Logo -->
+            <span class="google-logo-text" style="color: #4285f4; font: 16px/16px roboto-regular, arial, sans-serif; position: absolute; left: 215px; bottom: 20px; white-space: nowrap;">
+                images
+            </span>
+        </div> 
+            
         <!-- Image Search Bar -->
         <form action="https://www.google.com/search" method="GET" target="_blank" class="max-w-4xl mx-auto">
             <div class="custom-search-bar flex items-center relative">
@@ -85,7 +93,6 @@
     <!-- Footer -->
     <footer class="bg-gray-200 mt-auto">
         <div class="footer content px-6 py-4 border-t border-gray-300 text-base flex justify-between items-center">
-            <!-- content -->
 
             <!-- Country Section -->
             <div class="country-section">
@@ -105,7 +112,7 @@
 
         <!-- First set of links on the left -->
         <div class="google-company-menu content flex items-center">
-            <a class="google-menu no-underline text-sm ml-3 transition duration-300 ease-in-out hover:underline" href="https://about.google/?fg=1&utm_source=google-IT&utm_medium=referral&utm_campaign=hp-header" target="_top">Who we are</a>
+            <a class="google-menu no-underline text-sm ml-3 transition duration-300 ease-in-out hover:underline" href="https://about.google/?fg=1&utm_source=google-IT&utm_medium=referral&utm_campaign=hp-header" target="_top">About</a>
             <a class="google-menu no-underline text-sm ml-5 transition duration-300 ease-in-out hover:underline" href="https://www.google.com/intl/it_it/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_top">Advertising</a>
             <a class="google-menu no-underline text-sm ml-5 transition duration-300 ease-in-out hover:underline" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" target="_top">Business Solution</a>
             <a class="google-menu no-underline text-sm ml-5 transition duration-300 ease-in-out hover:underline" href="https://google.com/search/howsearchworks/?fg=1" target="_top">How Search works</a>
